@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form action="" id="survey-form">
+        <label for="" id="name-label">Name <input type="text" id="name" placeholder="Enter your name"></label>
+        <label for="" id="email-label">Email <input type="email" id="email" placeholder="Enter your Email"></label>
+        <label for="" id="number-label">Age (optional)<input type="number" name="" id="number" placeholder="Age" min="10" max="99"></label>
+        <label for="">Which option best describes your current role?
+            <select name="" id="dropdown">
+                <option value="">Select current role</option>
+                <option value="1">Student</option>
+                <option value="2">Full Time Job</option>
+            </select>
+        </label>
+        <label for="">
+            <legend>Would you recommend freeCodeCamp to a friend?</legend>
+            <input type="radio" class="inline" name="attribute" id="recommendation-type" >Definitely
+            <input type="radio" class="inline" name="attribute" id="recommendation-type">Maybe
+        </label>
+        <fieldset>
+            <p>What would you like to see improved?</p>
+            <label for="option-1">
+            <input id="option-1" type="checkbox" value="1" required name="option-1" class="inline" /> Fron-end Projects
+          </label>
+          <label for="option-2">
+            <input id="option-2" type="checkbox" value="2" required name="option-2" class="inline" /> Back-end Projects
+          </label>
+          <label for="option-3">
+            <input id="option-3" type="checkbox" value="3" required name="option-3" class="inline" /> Data Visualization
+          </label>
+          <label for="option-4">
+            <input id="option-4" type="checkbox" value="4" required name="option-4" class="inline" /> Challenges
+          </label>
+          <label for="option-5">
+            <input id="option-5" type="checkbox" value="5" required name="option-5" class="inline" /> Open Source Community
+          </label>
+          <label for="option-6">
+            <input id="option-6" type="checkbox" value="6" required name="option-6" class="inline" /> Gitter help rooms
+          </label>
+          <label for="option-7">
+            <input id="option-7" type="checkbox" value="7" required name="option-7" class="inline" /> Videos
+          </label>
+          <label for="option-8">
+            <input id="option-8" type="checkbox" value="8" required name="option-8" class="inline" /> City Meetups
+          </label>
+          <label for="option-9">
+            <input id="option-9" type="checkbox" value="9" required name="option-9" class="inline" /> Wiki
+          </label>
+          <label for="option-10">
+            <input id="option-10" type="checkbox" value="10" required name="option-10" class="inline" /> Forum
+          </label>
+          <label for="option-11">
+            <input id="option-11" type="checkbox" value="11" required name="option-11" class="inline" /> Additional Courses
+          </label> 
+          
+        </fieldset>
+    </form>
+</body>
+</html>
